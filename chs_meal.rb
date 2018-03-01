@@ -5,9 +5,9 @@ module FillPlate
    
     def fill_up plate1: '', plate2: '', plate3: '', plate4: '', plate5: '', plate6: '',plate7: '', plate8: '', plate9: ''
 
-        lunch = ''
-        dinner = ''
-        breakfast = ''
+        lunch = []
+        dinner = []
+        breakfast = []
 
         lunch << "#{plate1}"  
         lunch << "#{plate2}"
@@ -28,8 +28,8 @@ module FillPlate
             "key_c" => breakfast
 
         }   
-          File.open("data_create.json","w+") do |f|
-            f.write(tempHash.to_json)
+          File.open("data_create.json","w") do |f|
+            f.puts(tempHash.to_json)
 
         end
     end

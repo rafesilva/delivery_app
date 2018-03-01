@@ -23,13 +23,14 @@ module FillPlate
         
         tempHash = {
 
-            "key_a" => lunch,
-            "key_b" => dinner,
-            "key_c" => breakfast
+            "lunch" => lunch,
+            "dinner" => dinner,
+            "breakfast" => breakfast
 
         }   
-          File.open("data_create.json","w") do |f|
-            f.puts(tempHash.to_json)
+            tempHash.to_json
+            File.open("data_create.json","w") do |f|
+            f.write(tempHash.to_json)
 
         end
     end

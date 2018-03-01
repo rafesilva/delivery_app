@@ -1,6 +1,6 @@
 module CreateSet
     require_relative '2_chs_meal'
-    require_relative 'rec_file'
+
      module_function
   
      def set_lunch
@@ -66,8 +66,8 @@ module CreateSet
     end
     
     def setup
-    
-        puts 'What do you want to set?'
+        
+        puts "Create new plate or show your board?"
             
         while true
                 set = gets.chomp
@@ -83,7 +83,7 @@ module CreateSet
                       set_breakfast
                       z = set_breakfast
                                         
-                        RecFile.create
+            
                       
                         break
                     end
@@ -92,7 +92,7 @@ module CreateSet
                      
                 end
         
-    setup
+    
 
 end
 

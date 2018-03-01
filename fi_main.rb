@@ -1,14 +1,12 @@
 require_relative 'board'
 
-
-
 acc = 'John'
 
 puts "Welcome to your board #{acc}."
 
 puts "These are your meals for this week."
 
-    w_board
+w_board
 
 # module MealBoard
 

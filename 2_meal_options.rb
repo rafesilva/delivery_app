@@ -1,17 +1,17 @@
 module CreateSet
     require_relative 'chs_meal'
-    require_relative 'rec_file'
+   
+
      module_function
-     
-
-
+    
      def set_plate 
         
-        puts "Select plate? (y or n)"
-               actual = gets.chomp
+        # puts "Do you want to create your board?"
+            #    actual = gets.chomp
+               actual = opt
                 
             case
-            when actual == 'y'
+            when actual == 'create'
 
                     puts "Wha do you want for lunch?
                         Set 1 Chicken Potato Tomato
@@ -19,9 +19,8 @@ module CreateSet
                         Set 3 Fish Pasta Cheese"
 
                             setl = gets.chomp
-
-                            case 
-                            when setl == '1'
+                            case
+                            when  setl == '1'
                             spot1 = 'Chicken' 
                             spot2 = 'Potato'  
                             spot3 = 'Tomato'
@@ -31,7 +30,7 @@ module CreateSet
                             spot2 = 'Pie'
                             spot3 = 'Salad'
                        
-                            when setl =='3'
+                            when setl == '3'
                             spot1 = 'Fish'
                             spot2 = 'Pasta'
                             spot3 = 'Cheese'
@@ -59,7 +58,7 @@ module CreateSet
                             spot6 = 'Cheese'
                             end
 
-                        puts "Wha do you want for breakfast?
+                        puts "What do you want for breakfast?
                             Set 1 Egg Bacon Tomato
                             Set 2 Sauce Acai Cheese
                             Set 3 Rice Fish Butter"

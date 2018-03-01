@@ -1,1 +1,7 @@
-
+{"lunch"=>["Chicken", "Potato", "Tomato"], "dinner"=>["Yougurt", "Juice", "Cheese"], "breakfast"=>["Souce", "Acai", "Cheese"]}
+{"lunch"=>["Chicken", "Potato", "Tomato"], "dinner"=>["Yougurt", "Juice", "Cheese"], "breakfast"=>["Souce", "Acai", "Cheese"]}
+{"lunch"=>["Chicken", "Potato", "Tomato"], "dinner"=>["Yougurt", "Juice", "Cheese"], "breakfast"=>["Souce", "Acai", "Cheese"]}
+{"lunch"=>["Chicken", "Potato", "Tomato"], "dinner"=>["Yougurt", "Juice", "Cheese"], "breakfast"=>["Souce", "Acai", "Cheese"]}
+{"lunch"=>["Chicken", "Potato", "Tomato"], "dinner"=>["Yougurt", "Juice", "Cheese"], "breakfast"=>["Souce", "Acai", "Cheese"]}
+{"lunch"=>["Chicken", "Potato", "Tomato"], "dinner"=>["Yougurt", "Juice", "Cheese"], "breakfast"=>["Souce", "Acai", "Cheese"]}
+{"lunch"=>["Chicken", "Potato", "Tomato"], "dinner"=>["Yougurt", "Juice", "Cheese"], "breakfast"=>["Souce", "Acai", "Cheese"]}
